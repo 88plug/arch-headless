@@ -85,7 +85,7 @@ function warn_incompatibility () {
 	fi
 }
 
-ARCH='i686'		# A 32-bit system as the default one.
+ARCH='x86_64'		# A 32-bit system as the default one.
 BREAK=0 		# If 1, BREAK/HALT the script
 CLEAN=0 		# If 1, DO NOT RESUME the script and REMOVE FILES instead.
 CP_LOCALE=0 	# If 1, copy locale/keymap/font/time zone configs to ISO.
